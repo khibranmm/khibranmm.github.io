@@ -1,0 +1,114 @@
+body {
+    font-family: "Bebas Neue";
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: 10px dashed black;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 5 auto;
+}
+
+#room {
+    position: static;
+    border: 10px dashed black;
+    margin: 15px 5px;
+    overflow: hidden;
+}
+
+#wordInput {
+text-align: center;
+margin-bottom: 10px;
+}
+
+#seconds{
+color: red;
+font-size: x-large;
+}
+
+#lead {
+    display: block;
+    font-size: 20px;
+    font-family: "Nunito Sans" ;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 30px auto;
+    width: 600px;
+    padding-top: 0 auto;
+
+}
+
+#word-input {
+    border: 1px solid grey;
+    width: 30vw;
+    height: 5vh;
+    font-size:14px;
+}
+
+#current-word{
+    font-size: 50px;
+    text-align: center;
+    font-family: Nunito ;
+    margin: 15px 50px;
+     /* border: 1px solid red; */
+}
+
+#timeScore {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Nunito sans" ;
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+#message {
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 20px;
+    letter-spacing: 10px;
+    margin: 40px auto;
+    padding: 30px auto;
+    text-decoration: underline;
+};
+
+.text-instruction{
+    font-weight: 400;
+}
+#instruction {
+    text-align: center;
+    letter-spacing: 10;
+    font-size: 11px;
+    text-decoration: underline;
+    font-family: "Nunito Sans" ;
+    margin: 40px auto;
+    padding-bottom: 50px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0.8;
+    background-color: white;
+}
+
+.footer a {
+    float: left;
+    margin-top: 20px;
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.footer .contact {
+    float: right;
+}
